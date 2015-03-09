@@ -1,0 +1,44 @@
+body {
+    font-family:  Verdana, sans-serif;
+    color: #666666;
+}
+
+h2 {
+    padding-bottom: 21px;
+    font-size: 170%;
+    font-weight: bold;
+    color: #f07c17;
+}
+
+p {
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.header {
+  margin-top: 25px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #666666;
+}
+
+#main_features ul {
+    font-size: 115%;
+    line-height: 200%;
+}
+
+#main_features {
+    box-sizing: content-box;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 29px;
+    padding-left: 30px;
+}
