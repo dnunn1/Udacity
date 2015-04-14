@@ -1,6 +1,12 @@
 body {
     font-family:  Verdana, sans-serif;
-    color: #666666;
+    color: #666;
+}
+
+/*set header styles*/
+h1 {
+    font-size: 48px;
+    color: #666;
 }
 
 h2 {
@@ -15,30 +21,26 @@ p {
     line-height: 200%;
 }
 
-.header {
-  margin-top: 25px;
-}
-
 img {
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 48px;
-    color: #666666;
+.header {
+  margin-top: 25px;
 }
 
-#main_features ul {
-    font-size: 115%;
-    line-height: 200%;
-}
-
-#main_features {
+/*styles for the main features unordered list*/
+.main_features {
     box-sizing: content-box;
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
     margin-top: 30px;
     height: 100%;
     padding-top: 10px;
     padding-bottom: 29px;
     padding-left: 30px;
+}
+
+.main_features ul {
+    font-size: 115%;
+    line-height: 200%;
 }
